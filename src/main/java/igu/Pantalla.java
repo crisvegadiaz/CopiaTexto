@@ -14,7 +14,8 @@ import java.awt.Toolkit;
 public final class Pantalla extends javax.swing.JFrame {
 
     private static final long serialVersionUID = 4425501701414448611L;
-	/**
+
+    /**
      * Creates new form Pantalla
      */
     public Pantalla() {
@@ -24,7 +25,7 @@ public final class Pantalla extends javax.swing.JFrame {
 
     //Icono del JFrame
     @Override
-    public Image getIconImage(){
+    public Image getIconImage() {
         Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("img/copiar.png"));
         return retValue;
     }
@@ -181,7 +182,7 @@ public final class Pantalla extends javax.swing.JFrame {
         txt1.setText("");
         txt2.setText("");
     }//GEN-LAST:event_btnLimpiarActionPerformed
-    
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btn;
